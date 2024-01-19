@@ -1,0 +1,22 @@
+{
+    "name": "sports-prediction-game",
+    "version": "1.0.0",
+    "description": "A sports prediction game",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.9.7",
+        "bcrypt": "^5.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "cors": "^2.8.5",
+        "helmet": "^4.4.1",
+        "body-parser": "^1.19.0"
+    },
+    "engines": {
+        "node": "12.x"
+    },
+    "license": "ISC"
+}
